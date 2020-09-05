@@ -25,13 +25,13 @@
 }
 
 .topnav a:hover {
-    background-color: rgb(240, 232, 232);
-    color: red;
+    background-color: rgb(112, 167, 167);
+    color: rgb(240, 226, 226);
 }
 
 .topnav a.active {
     background-color: rgb(112, 167, 167);
-    color: rgb(240, 232, 232);
+    color: rgb(240, 226, 226);
 }
 
 .topnav a.icon {
@@ -42,16 +42,10 @@
     top: 0;
 }
 
-.active {
-    background-color: royalblue;
-    color: white;
-}
-
-
 
 
 #logo {
-    background-color: rgb(78, 51, 51);
+    background-color: rgb(185, 128, 77);
 }
 
 .center {
@@ -71,28 +65,75 @@
     display: block;
 }
 
+.bikini img {
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 #description {
-    background-color: rgb(78, 51, 51);
+    background-color: rgb(240, 226, 226);
 }
 
 h1  {
     text-align: center;
-    color: rgb(240, 232, 232);
+    color: rgb(3, 3, 46);
     font-family: 'Abel', sans-serif;
-    text-shadow: 0 0.05rem 1px rgb(112, 167, 167);
-    
+    text-shadow: 0 0.05rem 1px rgb(185, 128, 77); 
 }
 
 p   {
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
-    color: rgb(240, 232, 232);
+    color: rgb(3, 3, 46);
     font-family: 'Abel', sans-serif;
     font-size: 18px;
 }
 
+footer {
+    margin: 0;
+    padding-bottom: 1 5rem;
+    background-color: rgb(185, 128, 77);
+    color: rgb(3, 3, 46);
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+}
 
+.link   {
+    color: rgb(3, 3, 46);
+}
+
+.link a:hover {
+    color: rgb(112, 167, 167);
+}
+
+.fab {
+    font-size: 40px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fab:hover {
+    opacity: 0.7;
+  }
+
+  /* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+   
+  }
+
+  .fa-instagram-square {
+    background: ;
+    color: white;
+  }
+ 
 
 
 
@@ -124,3 +165,4 @@ p   {
         text-align: left;
     }
 }
+
