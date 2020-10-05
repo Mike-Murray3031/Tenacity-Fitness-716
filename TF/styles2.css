@@ -1,0 +1,272 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Abel', sans-serif;
+}
+
+.contact {
+    background-color: rgb(3, 3, 46);
+    position: relative;
+    
+}
+
+.contact .link {
+    margin-left: 10px;
+    padding-left: auto;
+}
+
+.contact .fab {
+   margin-right: 10px;
+}
+
+.icon .fab {
+    float: right;
+    font-size: 24px;
+}
+
+.container {
+    padding: 64px;
+    background-color: rgb(168, 168, 168);
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0.1rem 1px rgb(3, 3, 46);
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.column-66 {
+    float: left;
+    width: 66.66666%;
+    padding: 20px;
+}
+
+.column-33 {
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(3, 3, 46);
+    font-family: 'Abel', sans-serif;
+    text-shadow: 0 0.05rem 1px white;
+    font-weight: 900;
+}
+
+p {
+    color: rgb(3, 3, 46);
+    font-family: 'Abel', sans-serif;
+    font-size: 22px;
+    text-shadow: 0 0.010rem 1px white;
+}
+
+/* .two {
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-size: 22px;
+    text-shadow: 0 0.05rem 1px rgb(165, 84, 78); 
+} */
+
+.three {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgb(3, 3, 46);
+    font-family: 'Abel', sans-serif;
+    font-size: 22px;
+}
+
+#logo {
+    background-image: url(./images/Tenacity\ Fitness\ 716.jpg), url(./images/dumbells.jpg);
+    background-position: center, left;
+    background-size: 30%, 100%;
+    background-clip: unset;
+    background-repeat: no-repeat;
+    padding: 15px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25%;
+    max-height: 25%;
+    border-radius: 50%;
+}
+
+/* Footer */
+
+footer {
+    margin: 0;
+    padding-bottom: 1 5rem;
+    background-color: rgb(3, 3, 46);
+    color: rgb(3, 3, 46);
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+    color: lightgray;
+    text-align: center;
+}
+
+.link {
+    color: lightgray;
+}
+
+.link a:hover {
+    color: rgb(112, 167, 167);
+}
+
+.link2 {
+    color: lightgray;
+}
+
+.link2 a:hover {
+    color: rgb(112, 167, 167);
+}
+
+.fab {
+    font-size: 40px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 100%;
+}
+
+/* Add a hover effect if you want */
+
+.fab:hover {
+    opacity: 0.7;
+}
+
+/* Facebook */
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fa-instagram-square {
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Services Page */
+
+.textOne {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    color: rgb(3, 3, 46);
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
+
+.textTwo {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    color: rgb(3, 3, 46);
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
+
+.textThree {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    color: rgb(3, 3, 46);
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
+
+.textFour {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    color: rgb(3, 3, 46);
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
+
+.textFive {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    color: rgb(3, 3, 46);
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
+
+.textSix {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    color: rgb(3, 3, 46);
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
+
+.selectionOne, .selectionTwo, .selectionThree, .selectionFour, .selectionFive, .selectionSix {
+    box-shadow: 0 0.1rem 2px rgb(3, 3, 46);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(3, 3, 46);
+    font-family: 'Abel', sans-serif;
+    text-shadow: 0 0.05rem 1px white;
+}
+
+.paypal {
+    text-align: center;
+}
+
+/*Contact*/
+.form {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column-66, .column-33, .column-22, .container {
+        width: 100%;
+        text-align: center;
+    }
+    img {
+        margin: auto;
+        max-width: 75%;
+        max-height: 75%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .link, .icon{
+        display: none!important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #logo{
+        background-size: 100%;
+    }
+}
+
+
+
+
